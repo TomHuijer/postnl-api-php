@@ -1,5 +1,5 @@
 {
-    "name": "tomhuijer/postnl-api-php",
+    "name": "firstred/postnl-api-php",
     "description": "PostNL REST API PHP Bindings",
     "type": "library",
     "license": "MIT",
@@ -50,19 +50,19 @@
     },
     "autoload": {
         "psr-4": {
-            "TomHuijer\\PostNL\\": "src/"
+            "FirstRed\\PostNL\\": "src/"
         },
         "files": ["src/deprecated.php"]
     },
     "autoload-dev": {
         "psr-4": {
-            "TomHuijer\\PostNL\\Tests\\": "tests/"
+            "FirstRed\\PostNL\\Tests\\": "tests/"
         }
     },
     "support": {
         "email": "git@michaeldekker.nl",
         "docs": "https://postnl-php.readthedocs.io/",
-        "source": "https://github.com/TomHuijer/postnl-api-php",
-        "issues": "https://github.com/TomHuijer/postnl-api-php/issues"
+        "source": "https://github.com/FirstRed/postnl-api-php",
+        "issues": "https://github.com/FirstRed/postnl-api-php/issues"
    }
 }
